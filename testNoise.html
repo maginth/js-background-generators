@@ -1,0 +1,16 @@
+<!DOCTYPE HTML5>
+<html>
+	<head>
+	<title>BG</title>
+	</head>
+	<body>
+	<script type='text/javascript' src='BG.js'></script>
+	<script> 
+		var b1=new BG(500,500).noiseFast(30,30,30,0,128,128,128,255, true).fill();
+		var b2=new BG(500,500).noiseFast(10,15,10,0,234,220,180,255, true).fill();
+		var b3=new BG(500,500).noiseFast(10,15,10,50,128,70,80,180, true).fill();
+		var b4=new BG(500,500).noiseFast(20,5,10,0,180,224,140,255, true).fill();
+		add(b1.canvas);add(b2.canvas);add(b3.canvas);add(b4.canvas);
+	</script>
+	</body>
+</html>

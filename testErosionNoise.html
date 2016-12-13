@@ -1,0 +1,28 @@
+<!DOCTYPE HTML5>
+<html>
+	<head>
+	<title>BG</title>
+	</head>
+	<body>
+	<script type='text/javascript' src='BG.js'></script>
+	<script> 
+	function rd(m) {
+		return Math.random() * m | 0;
+	}
+	function test() {
+		add(new BG(2,2)
+			.noiseFast(rd(50),rd(50),rd(50),0,100+rd(100),100+rd(100),100+rd(100),255,true)
+			.fill()
+			.erosion([[rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0], [rd(20),rd(20),rd(20),0]])
+			.canvas
+		);
+	}
+	test();
+	test();
+	test();
+	test();
+	test();
+	test();
+	</script>
+	</body>
+</html>
