@@ -4,22 +4,19 @@ Background Generators –  javascript client side background generators
 ***Fast hight quality backround generation. No data, just js, save your network bandwidth !***
 
 *(those are preview see the live demos below)*  
-![spiral](http://aekuo.com/mathieu/bg/spiral.jpg "Spiral")  
-![erosion](http://aekuo.com/mathieu/bg/erosion.jpg "erosion")  
-![noise_angular](http://aekuo.com/mathieu/bg/noise_angular.jpg "noise + angular")  
+![spiral](/../image_branch/spiral.jpg?raw=true "Spiral")  
+![erosion](/../image_branch/erosion.jpg?raw=true "erosion")  
+![noise_angular](/../image_branch/noise_angular.jpg?raw=true "noise + angular")  
 
 
 ## LIVE DEMOs
 
 generated images are random, refresh the demo page to see more !
 
-1. [Spiral Art](http://aekuo.com/mathieu/bg/testSpiralArt.html)
-
-2. [Erosion noise](http://aekuo.com/mathieu/bg/testErosionNoise.html)
-
-3. [Simple noise](http://aekuo.com/mathieu/bg/testNoise.html)
-
-4. [Angular Gradient](http://aekuo.com/mathieu/bg/testAngularGradiant.html)
+1. [Spiral Art](http://aekuo.com/mathieu/bg/testSpiralArt.html)  
+2. [Erosion noise](http://aekuo.com/mathieu/bg/testErosionNoise.html)  
+3. [Simple noise](http://aekuo.com/mathieu/bg/testNoise.html)  
+4. [Angular Gradient](http://aekuo.com/mathieu/bg/testAngularGradiant.html)  
 
 
 ## API (Yeah, I know, it need some polish)
